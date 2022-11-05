@@ -22,7 +22,7 @@ Morck Apple ID Unlock是一款专为Apple ID解锁的自动服务程序，采用
 
     wget https://github.com/morckclient/morck_unlock/releases/download/v20221103/Morck_unlock_v1.0.0_debug.tar.gz
     
-解压运行
+解压&运行
 
     tar zxvf Morck_unlock_v1.0.0_debug.tar.gz && cd id_unlock && chmod +x unlock && ./unlock -s  管理员密码
     
