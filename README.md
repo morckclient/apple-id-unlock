@@ -1,6 +1,6 @@
 # Morck Apple ID Unlock
 
-Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务程序，采用苹果接口&Selenium组合的方式实现，有着极高的解锁效率和便捷的操作。
+Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务程序，采用苹果接口&Selenium组合的方式实现，可在数秒内完成解锁、解双重认证、改密码等操作，有着极高的解锁效率和便捷的操作。
 免搭建运行环境，一键启动web环境。
 
 演示Demo网站
