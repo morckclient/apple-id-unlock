@@ -61,21 +61,21 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务程
 |--------------------------------|------|----------|--------|-----|------|
 | /preview                       | GET  | `index`、`p` | `int`、`string` |  ✔︎  | 要获取的账号序号、用户访问密码 |
 
-- 示例：`http://127.0.0.1/preview?index=1&p=1234`
+- 示例：`https://appleid.morck.xyz/preview?index=1&p=morck`
 
 获取独立账号的JSON
 | URL                            | 请求  | 参数名      | 类型     |  必填  | 描述 |
 |--------------------------------|------|----------|--------|-----|------|
 | /getInfo/id                    | GET  | `index`、`p` | `int`、`string` |  ✔︎  | 要获取的账号序号、用户访问密码 |
 
-- 示例：`http://127.0.0.1/getInfo/id?index=1&p=1234`
+- 示例：`https://appleid.morck.xyz/getInfo/id?index=1&p=morck`
 
 获取全部账号的JSON
 | URL                            | 请求  | 参数名      | 类型     |  必填  | 描述 |
 |--------------------------------|------|----------|--------|-----|------|
 | /getInfo/all_id                | GET  | `p` | `string` |  ✔︎  | 用户访问密码 |
 
-- 示例：`http://127.0.0.1/getInfo/all_id?p=1234`
+- 示例：`https://appleid.morck.xyz/getInfo/all_id?p=morck`
 
     
 ## 购买许可
