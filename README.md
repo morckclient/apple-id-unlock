@@ -57,23 +57,22 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务程
 ## 调用接口
 
 获取独立账号生成的网页
-| URL                            | 请求  | 参数名      | 类型     |  必填  | 描述 |
-|--------------------------------|------|----------|--------|-----|------|
-| /preview                       | GET  | `index`、`p` | `int`、`string` |  ✔︎  | 要获取的账号序号、用户访问密码 |
+| URL                            | 请求  | 描述 |
+|--------------------------------|------|----------|
+| /preview                       | GET  | [说明文档](https://github.com/morckclient/apple-id-unlock/blob/main/api.md#1%E8%8E%B7%E5%8F%96%E7%8B%AC%E7%AB%8B%E8%B4%A6%E5%8F%B7%E7%94%9F%E6%88%90%E7%9A%84%E7%BD%91%E9%A1%B5) |
 
-- 示例：https://appleid.morck.xyz/preview?index=1&p=morck
 
 获取独立账号的JSON
-| URL                            | 请求  | 参数名      | 类型     |  必填  | 描述 |
-|--------------------------------|------|----------|--------|-----|------|
-| /getInfo/id                    | GET  | `index`、`p` | `int`、`string` |  ✔︎  | 要获取的账号序号、用户访问密码 |
+| URL                            | 请求  | 描述 |
+|--------------------------------|------|------|
+| /getInfo/id                    | GET  | [说明文档](https://github.com/morckclient/apple-id-unlock/blob/main/api.md#2%E8%8E%B7%E5%8F%96%E7%8B%AC%E7%AB%8B%E8%B4%A6%E5%8F%B7%E7%9A%84json) |
 
 - 示例：https://appleid.morck.xyz/getInfo/id?index=1&p=morck
 
 获取全部账号的JSON
-| URL                            | 请求  | 参数名      | 类型     |  必填  | 描述 |
-|--------------------------------|------|----------|--------|-----|------|
-| /getInfo/all_id                | GET  | `p` | `string` |  ✔︎  | 用户访问密码 |
+| URL                            | 请求  | 描述 |
+|--------------------------------|------|------|
+| /getInfo/all_id                | GET  | [说明文档](https://github.com/morckclient/apple-id-unlock/blob/main/api.md#3%E8%8E%B7%E5%8F%96%E5%85%A8%E9%83%A8%E8%B4%A6%E5%8F%B7%E7%9A%84json) |
 
 - 示例：https://appleid.morck.xyz/getInfo/all_id?p=morck
 
