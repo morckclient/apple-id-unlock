@@ -59,7 +59,7 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务程
  - 获取独立账号生成的网页
 | URL                            | 请求   | 参数名      | 类型     | 必填  | 描述   |
 |--------------------------------|------|----------|--------|-----|------|
-| /preview          | GET  | `index`, `p` | `int`, `string` |  ✔︎  | 要获取的账号序号，用户访问密码   |
+| /preview          | GET  | `index`、 `p` | `int`、`string` |  ✔︎  | 要获取的账号序号、用户访问密码   |
 
  - 获取独立账号JSON
  	`<host>/getInfo/id?index=<int: index>&p=<password>  --> GET`
