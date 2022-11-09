@@ -14,7 +14,7 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务程
  
 ## 快速开始
 
-初次使用安装chromium（自动删除账号中的登录设备使用chromium操作）
+初次使用务必安装chromium（自动删除账号中的登录设备使用chromium操作）
 
      apt-get update && apt-get install -y chromium chromium-driver
     
