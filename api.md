@@ -98,7 +98,7 @@
 
 | 参数名                    | 类型                 | 描述      |
 |------------------------|--------------------|---------|
-| account                | array              | 账号数组    |
+| account                | list               | 账号列表    |
 | available              | number             | 是否可用    |
 | headline               | string             | 账号标题    |
 | password               | string             | 账号密码  |
