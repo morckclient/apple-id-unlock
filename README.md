@@ -26,6 +26,9 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务程
 
     tar zxvf Morck_Appleid_Unlock_For_Linux_v1.0.31_debug.tar.gz && cd id_unlock && chmod +x unlock && ./unlock -s 管理员密码
     
+进程守护
+    可以使用 `systemd` `Supervisor` `screen` 
+    
 购买许可
 
  * [Telegram](https://t.me/morck_hh)
