@@ -52,7 +52,21 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务程
     
 ## 进程守护
 
-可以使用 `systemd` `Supervisor` `screen` 
+可以使用 `systemd` `Supervisor` `screen` 等进行后台运行
+
+## 调用接口
+
+ - 获取独立账号生成的网页
+| URL                            | 请求   | 参数名      | 类型     | 必填  | 描述   |
+|--------------------------------|------|----------|--------|-----|------|
+| /preview          | GET  | `index`, `p` | `int`, `string` |  ✔︎  | 要获取的账号序号，用户访问密码   |
+
+ - 获取独立账号JSON
+ 	`<host>/getInfo/id?index=<int: index>&p=<password>  --> GET`
+	
+ - 获取全部账号JSON
+ 	`<host>/getInfo/all_id&p=<password>  --> GET`
+
     
 ## 购买许可
 
