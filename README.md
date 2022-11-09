@@ -67,14 +67,12 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务程
 |--------------------------------|------|------|
 | /getInfo/id                    | GET  | [说明文档](https://github.com/morckclient/apple-id-unlock/blob/main/api.md#2%E8%8E%B7%E5%8F%96%E7%8B%AC%E7%AB%8B%E8%B4%A6%E5%8F%B7%E7%9A%84json) |
 
-- 示例：https://appleid.morck.xyz/getInfo/id?index=1&p=morck
 
 获取全部账号的JSON
 | URL                            | 请求  | 描述 |
 |--------------------------------|------|------|
 | /getInfo/all_id                | GET  | [说明文档](https://github.com/morckclient/apple-id-unlock/blob/main/api.md#3%E8%8E%B7%E5%8F%96%E5%85%A8%E9%83%A8%E8%B4%A6%E5%8F%B7%E7%9A%84json) |
 
-- 示例：https://appleid.morck.xyz/getInfo/all_id?p=morck
 
     
 ## 购买许可
