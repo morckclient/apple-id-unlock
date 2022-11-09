@@ -35,7 +35,27 @@
 
 | 参数名      | 类型     | 必填  | 描述   |
 |----------|--------|-----|------|
-| index    | int    | ✔︎  | 账号的序号   |
+| index    | number | ✔︎  | 账号的序号   |
 | p        | string | ✔︎  | 用户访问密码 |
 
 - 示例：https://appleid.morck.xyz/getInfo/id?index=1&p=morck
+
+- 成功返回示例 `json`
+
+```json
+{
+    "available": 0, 
+    "headline": "APPLE ID", 
+    "password": "123456", 
+    "update_time": "2022-11-09 17:38:58", 
+    "username": "testappleid@mail.com"
+}
+```
+
+| 参数名                    | 类型                 | 描述      |
+|------------------------|--------------------|---------|
+| available              | number             | 是否可用    |
+| headline               | string             | 账号标题    |
+| password               | string             | 账号密码  |
+| update_time            | time_stmp          | 更新时间 |
+| username               | string             | 账号    |
