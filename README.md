@@ -10,7 +10,7 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务程
 
 ## 功能介绍
 
-| 功能                   | 支持 | 说明 |
+| 功能                   | 支持 | 详情 |
 |-----------------------|------|------|
 | 一键检测账号状态        | ✔︎   |      |
 | 解除双重认证绑定        | ✔︎   |      |
@@ -18,13 +18,14 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务程
 | 密码错误自动更改        | ✔︎   |      |
 | 定时删除登录设备        | ✔︎   |      |
 | 后台管理面板           | ✔︎   |      |
+| 用户访问网站           | ✔︎   |      |
 | 自定义自动解锁时间间隔  | ✔︎   |      |
 | 自定义定时删除设备时间间隔  | ✔︎   |      |
 | 网站模板自定义          | ✔︎   |      |
-| 远程获取账号信息        | ✔︎   |      |
-| 限制网站请求次数        | ✔︎   |      |
-| 为WEB绑定域名          | ✔︎   |      |
-| 自定义WEB运行端口      | ✔︎   |      |
+| 远程获取账号信息        | ✔︎   |  [调用接口](https://github.com/morckclient/apple-id-unlock#%E8%B0%83%E7%94%A8%E6%8E%A5%E5%8F%A3) |
+| 限制网站请求次数        | ✔︎   |  [启动参数](https://github.com/morckclient/apple-id-unlock/blob/main/README.md#%E5%90%AF%E5%8A%A8%E5%8F%82%E6%95%B0) |
+| 为WEB绑定域名          | ✔︎   |  [启动参数](https://github.com/morckclient/apple-id-unlock/blob/main/README.md#%E5%90%AF%E5%8A%A8%E5%8F%82%E6%95%B0) |
+| 自定义WEB运行端口      | ✔︎   |  [启动参数](https://github.com/morckclient/apple-id-unlock/blob/main/README.md#%E5%90%AF%E5%8A%A8%E5%8F%82%E6%95%B0) |
 
 
 ## 支持设备
