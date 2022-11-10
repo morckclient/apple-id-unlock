@@ -17,7 +17,7 @@
 | index    | int    | ✔︎  | 账号的序号   |
 | p        | string | ✔︎  | 用户访问密码 |
 
-- 示例：https://appleid.morck.xyz/preview?index=1&p=morck
+- 请求示例：https://appleid.morck.xyz/preview?index=1&p=morck
 
 ## 2.获取独立账号的JSON
 
@@ -38,7 +38,7 @@
 | index    | number | ✔︎  | 账号的序号   |
 | p        | string | ✔︎  | 用户访问密码 |
 
-- 示例：https://appleid.morck.xyz/getInfo/id?index=1&p=morck
+- 请求示例：https://appleid.morck.xyz/getInfo/id?index=1&p=morck
 
 - 成功返回示例 `json`
 
@@ -78,7 +78,7 @@
 |----------|--------|-----|------|
 | p        | string | ✔︎  | 用户访问密码 |
 
-- 示例：https://appleid.morck.xyz/getInfo/all_id?p=morck
+- 请求示例：https://appleid.morck.xyz/getInfo/all_id?p=morck
 
 - 成功返回示例 `json`
 
