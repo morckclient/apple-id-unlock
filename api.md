@@ -57,7 +57,7 @@
 | available              | number             | 是否可用；1：正常    |
 | headline               | string             | 账号标题    |
 | password               | string             | 账号密码  |
-| update_time            | time_stmp          | 更新时间 |
+| update_time            | datatime           | 更新时间 |
 | username               | string             | 账号    |
 
 
@@ -102,5 +102,5 @@
 | available              | number             | 是否可用；1：正常    |
 | headline               | string             | 账号标题    |
 | password               | string             | 账号密码  |
-| update_time            | time_stmp          | 更新时间 |
+| update_time            | datatime           | 更新时间 |
 | username               | string             | 账号    |
