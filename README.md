@@ -25,7 +25,7 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务，
  * Linux（Debian9,10,11）
  * ~~Windows (Windows7,10,11)~~ 暂未发布
  
-## 快速开始
+## 快速开始 for Linux
 
 初次使用务必安装chromium（自动删除账号中的登录设备使用chromium操作）
 
