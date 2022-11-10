@@ -54,7 +54,7 @@
 
 | 参数名                    | 类型                 | 描述      |
 |------------------------|--------------------|---------|
-| available              | number             | 是否可用    |
+| available              | number             | 是否可用；1：正常    |
 | headline               | string             | 账号标题    |
 | password               | string             | 账号密码  |
 | update_time            | time_stmp          | 更新时间 |
@@ -99,7 +99,7 @@
 | 参数名                    | 类型                 | 描述      |
 |------------------------|--------------------|---------|
 | account                | list               | 账号列表    |
-| available              | number             | 是否可用    |
+| available              | number             | 是否可用；1：正常    |
 | headline               | string             | 账号标题    |
 | password               | string             | 账号密码  |
 | update_time            | time_stmp          | 更新时间 |
