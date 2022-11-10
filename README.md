@@ -70,7 +70,7 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务程
     
 ## 进程守护
 
-可以使用 `systemd` `Supervisor` `screen` 等进行后台运行
+可以使用 `systemd` `Supervisor` `screen` 等后台运行
 
 ## 调用接口
 
