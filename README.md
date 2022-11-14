@@ -44,7 +44,7 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务，
     
 ### Windows
 
-[下载文件](https://github.com/morckclient/apple-id-unlock/releases/download/v20221114/maiu_windows_v1.0.4_debug.zip)
+[下载文件](https://github.com/morckclient/apple-id-unlock/releases/download/v20221114/maiu_windows_v1.0.4_debug.zip)  
 解压缩后使用命令提示行 `cmd` 运行
     
 ## 启动参数
