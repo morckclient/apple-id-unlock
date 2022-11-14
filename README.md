@@ -5,7 +5,7 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务，
 
 ## 演示Demo
 
- * [demo网站](https://appleid.morck.xyz) &nbsp;&nbsp; 管理员访问密码 `1234` &nbsp;&nbsp; 用户访问密码 `morck`
+ * [点击进入](https://appleid.morck.xyz)demo网站 &nbsp;&nbsp; 管理员访问密码 `1234` &nbsp;&nbsp; 用户访问密码 `morck`
 
 ## 功能介绍
 
