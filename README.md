@@ -26,7 +26,9 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务，
  * Windows（Windows7及以上, Service2012及以上）amd64
  
  
-## 快速开始 for Linux
+## 快速开始
+
+### Linux
 
 初次使用务必安装chromium（自动删除账号中的登录设备使用chromium操作）
 
@@ -36,9 +38,13 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务，
 
     wget https://github.com/morckclient/apple-id-unlock/releases/download/v20221108/Morck_Appleid_Unlock_For_Linux_v1.0.31_debug.tar.gz
     
-解压&运行
+解压缩&运行
 
     tar zxvf Morck_Appleid_Unlock_For_Linux_v1.0.31_debug.tar.gz && cd id_unlock && chmod +x unlock && ./unlock -s 你的管理员密码
+    
+### Windows
+
+解压缩后使用命令提示行 `cmd` 运行
     
 ## 启动参数
     -s  string <必选>
