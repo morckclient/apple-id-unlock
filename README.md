@@ -36,14 +36,15 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务，
     
 下载文件
 
-    wget https://github.com/morckclient/apple-id-unlock/releases/download/v20221108/Morck_Appleid_Unlock_For_Linux_v1.0.31_debug.tar.gz
+    wget https://github.com/morckclient/apple-id-unlock/releases/download/v20221114/maiu_liunx_v1.0.4_debug.tar.gz
     
 解压缩&运行
 
-    tar zxvf Morck_Appleid_Unlock_For_Linux_v1.0.31_debug.tar.gz && cd id_unlock && chmod +x unlock && ./unlock -s 你的管理员密码
+    tar zxvf maiu_liunx_v1.0.4_debug.tar.gz && cd id_unlock && chmod +x unlock && ./unlock -s 你的管理员密码
     
 ### Windows
 
+[下载文件](https://github.com/morckclient/apple-id-unlock/releases/download/v20221114/maiu_windows_v1.0.4_debug.zip)
 解压缩后使用命令提示行 `cmd` 运行
     
 ## 启动参数
@@ -54,7 +55,7 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务，
 		为WEB服务绑定域名
 
 	-p  int <可选>
-		服务将在本地地址0.0.0.0运行，默认使用80端口，如果本地启用ssl请使用 443 端口，且需将ssl证书文件 <server.pem> <server.key> 放置到路径下的ssl目录下
+		服务将在本地地址0.0.0.0运行，默认使用80端口，如果本地启用ssl请使用 443 端口，且需将ssl证书文件 <server.pem> <server.key> 放置到路径下的ssl目录中
 
 	-r  string <可选>
 		启用Redis模式，Redis链接示例 `redis://:password@host:port` 限制请求次数记录值默认会使用系统内存记录，可能会造成内存过度消耗并导致系统运行异常，开启redis模式会大大减少系统内存消耗
