@@ -99,3 +99,7 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务，
 ## 购买许可
 
  * [Telegram](https://t.me/morck_hh)
+
+## 加入群聊
+
+ * [Telegram Chat](https://t.me/morckcsq)
