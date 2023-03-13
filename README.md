@@ -36,7 +36,7 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务，
     
 下载文件
 
-    wget https://github.com/morckclient/apple-id-unlock/releases/download/v20230310/maiu_liunx_v1.0.51.tar.gz
+    wget https://github.com/morckclient/apple-id-unlock/releases/download/v20230311/maiu_linux_v1.0.51.tar.gz
     
 解压缩&运行
 
