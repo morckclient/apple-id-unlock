@@ -36,15 +36,15 @@ Morck Apple ID Unlock是一款专为Apple ID量身定做的自动解锁服务，
     
 下载文件
 
-    wget https://github.com/morckclient/apple-id-unlock/releases/download/v20230311/maiu_linux_v1.0.51.tar.gz
+    wget https://github.com/morckclient/apple-id-unlock/releases/download/v20230313/maiu_linux_v1.0.52.tar.gz
     
 解压缩&运行
 
-    tar zxvf maiu_linux_v1.0.51.tar.gz && cd id_unlock && chmod +x unlock && ./unlock -s 你的管理员密码
+    tar zxvf maiu_linux_v1.0.52.tar.gz && cd id_unlock && chmod +x unlock && ./unlock -s 你的管理员密码
     
 ### Windows
  - 初次使用安装 [Chrome](https://www.google.cn/intl/zh-CN/chrome)（自动删除账号中的登录设备使用Selenium操作）
- - 下载 [解锁文件](https://github.com/morckclient/apple-id-unlock/releases/download/v20230311/maiu_windows_v1.0.51.zip)  
+ - 下载 [解锁文件](https://github.com/morckclient/apple-id-unlock/releases/download/v20230313/maiu_windows_v1.0.52.zip)  
  - 解压缩后使用命令提示行 `cmd` 运行
     
 ## 启动参数
